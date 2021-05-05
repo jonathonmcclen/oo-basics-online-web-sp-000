@@ -7,5 +7,9 @@ class Book
   def title
     @title
   end
+  
+  def property=(book_property)
+    property
+  end
  
 end
