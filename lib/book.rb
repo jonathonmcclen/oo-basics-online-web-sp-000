@@ -8,8 +8,8 @@ class Book
     @title
   end
   
-  def property=(book_property)
-    property
+  def author=(author)
+    @author = author
   end
  
 end
